@@ -19,7 +19,7 @@ const AvatarUI = () => {
 
     const label = { inputProps: { 'aria-label': 'Switch demo' } };
   return (
-    <div className='flex gap-5 mt-[64px] ' >
+    <div className='flex gap-5 mt-[10%] ' >
                 <Link to='/' >
                     <Avatar
                         alt="User Profile"

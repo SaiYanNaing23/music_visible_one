@@ -80,7 +80,7 @@ html {
   background: linear-gradient(0deg, #d90866, #ed7bad);
   border-radius: 20px;
   padding: 20px;
-  height: 350px;
+  height: calc(90vh * 0.42);
   color: white;
   cursor: pointer;
   width: 800px;
@@ -100,7 +100,7 @@ html {
 .rigth-content-type{
   background: linear-gradient(0deg,#3038a1, #0d66bf );
   padding: 20px;
-  height: 350px;
+  height: calc(90vh * 0.42);
   color: white;
   cursor: pointer;
   width: 550px;
@@ -127,4 +127,18 @@ html {
 
 .single-play {
   display: none;
+}
+
+.recent_pyayed_lists {
+  height: calc(90vh * 0.42);
+}
+
+.recommended_play_list{
+  height: calc(90vh * 0.21);
+  width: calc(100vw * 0.5);
+}
+
+.artist_avatart{
+  width: calc(100vw * 0.2);
+  
 }

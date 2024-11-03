@@ -19,7 +19,7 @@ const RecentPlayedLists = () => {
     }
   return (
     <>
-    <div className='overflow-y-scroll h-[350px] scrollbar-thin scrollbar-track-transparent scrollbar-thumb-slate-200 ' >
+    <div className='overflow-y-scroll recent_pyayed_lists h-[350px] scrollbar-thin scrollbar-track-transparent scrollbar-thumb-slate-200 ' >
         {musicContent?.map((music, index)=> (
           <div className='mt-4 flex justify-between cursor-pointer hover:bg-[#4a4a4a]/20 p-2 rounded single-list ' key={index} >
             <div className='flex items-center gap-5 relative ' >

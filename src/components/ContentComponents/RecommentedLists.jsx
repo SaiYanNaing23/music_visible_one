@@ -18,9 +18,9 @@ const RecommentedLists = () => {
             {recommendMusic?.map((music, index)=> (
                 <div className="relative" key={index} >
                 <div className="overflow-hidden rounded w-[200px] relative group single-recommended cursor-pointer ">
-                <img src={music.strAlbumThumb} className="w-[200px] h-[200px]" alt="album" />
-                <div className="single-play w-[200px] h-[200px] bg-black/80 rounded text-center absolute top-0 left-0">
-                    <img src="/playOutLine.svg" alt="play" className="mt-[75px] ml-[75px]" />
+                <img src={music.strAlbumThumb} className="recommended_play_list w-[200px] h-[200px]" alt="album" />
+                <div className="  single-play w-[200px] h-[200px] bg-black/80 rounded text-center absolute top-0 left-0">
+                    <img src="/playOutLine.svg" alt="play" className="mt-[25%] ml-[38%]" />
                 </div>
                 </div>
                 <p className="text-black text-lg mt-3">

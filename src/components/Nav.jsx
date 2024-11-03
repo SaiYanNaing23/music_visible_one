@@ -7,7 +7,7 @@ import Playlists from './NavComponents/Playlists';
 const Nav = () => {
   return (
     <div className='w-[18%] bg-[#f1f1f1] ' >
-        <div className='px-10 py-5 ' >
+        <div className='px-10 pt-1 ' >
             <div>
                 <ul className='flex gap-3' >
                     <li className='w-5 h-5 inline-block bg-[#ff0000b6] rounded-[50%] ' ></li>

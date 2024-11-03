@@ -6,8 +6,8 @@ import RecentlyPlayed from './ContentComponents/RecentlyPlayed'
 
 const MainContent = () => {
   return (
-    <div className='py-8 !w-[82%]'>
-      <div className='flex justify-between w-full px-[64px] mb-5 h-[50px] ' >
+    <div className='py-5 !w-[82%]'>
+      <div className='flex justify-between w-full px-[64px] mb-5 ' >
         {/* search bar */}
         <SearchBar/>
 
